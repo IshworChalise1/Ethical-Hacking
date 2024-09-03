@@ -62,8 +62,8 @@ wrapper.addEventListener("mouseleave", autoSlide);
 
 const imagesList = [
   // "/images/bg3.png",
-  "/images/fnalbg.png",
-  "/images/bg2.png",
+  "fnalbg.png",
+  "bg2.png",
   // "/images/lastbg.png",
   // "images/ishhh.png",
 ];
