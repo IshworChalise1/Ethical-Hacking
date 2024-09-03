@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="/images/e1.png">
+    <title>Ethical HCK</title>
+</head>
+<body>
+    <div>
+        <div class="first" id="home">
+            <nav>
+                <div class="logo">
+                    <img src="/images/e2.png" alt="Logo" />
+                </div>
+                <div class="menu">
+                    <a href="#home">Home</a>
+                    <a href="#events">Events</a>
+                    <a href="#aboutus">About Us</a>
+                    <a href="#ourteam">Our Team</a>
+                </div>
+            </nav>
+            <div class="intro">
+                <h1>Ethical HCK</h1>
+                <p>
+                    Ethical HCK Community is part of the Herald DevCorps Communities at
+                    Herald College Kathmandu, which was established on September 9,
+                    2021. As a cybersecurity community, we focus on educating and empowering individuals about ethical hacking practices to enhance cybersecurity awareness and resilience.
+                </p>
+                <button onclick="window.open('https://www.instagram.com/devcorps.ethicalhck/', '_blank')">Contact Us</button>
+            </div>
+        </div>
+        <div class="fifth" id="events">
+            <h1>Our Past Events</h1>
+            <section class="wrapper">
+                <i class="fa-solid fa-arrow-left button" id="prev"></i>
+                <div class="image-container">
+                    <div class="carousel">
+                        <img src="/images/hacktivities.jpg" alt="" />
+                        <img src="/images/wifihacking.jpg" alt="" />
+                        <img src="/images/cybertalks.png" alt="" />
+                        <img src="/images/orientation.png" alt="" />
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right button" id="next"></i>
+            </section>
+        </div>
+        <div class="third" id="aboutus">
+            <div class="button-container">
+                <button id="about-btn" class="active" onclick="showSection('about')">
+                    About Us
+                </button>
+                <button id="mission-btn" onclick="showSection('mission')">
+                    Our Mission
+                </button>
+            </div>
+
+            <div id="about" class="content-container active">
+                <img src="/images/About us.webp" alt="About Us" />
+                <div class="content">
+                    <h1>About Us</h1>
+                    <p>
+                      Ethical HCK Community is a part of the Herald DevCorps Communities at Herald College Kathmandu, established on September 9, 2021. 
+                      As a cybersecurity-focused community, we study current cyber threats and educate others on how to avoid them.
+                    </p>
+                </div>
+            </div>
+
+            <div id="mission" class="content-container">
+                <img src="/images/cybertalks1.JPG" alt="Our Mission" />
+                <div class="content">
+                    <h1>Our Mission</h1>
+                    <p>
+                      Our mission is to empower students and professionals to understand and defend against modern cyber threats. 
+                      We aim to build a community of ethical hackers who are skilled, knowledgeable, and committed to making the digital world safer for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fourth" id="ourteam">
+            <div class="container">
+                <div class="heading"></div>
+                <h3 class="teammessage"></h3>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img
+                            src="/images/b29c0414b8f5cde6b108b27c9246ec35.jpg"
+                            alt=""
+                            class="image-top"
+                        />
+                        <img src="/images/viraj.png" alt="" class="profile-image" />
+                        <h1 class="fullname">Viraj Subedi</h1>
+                        <p class="job">Leader</p>
+                        <button type="button">Explore Me</button>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/viraj-subedi-3852a9258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                      <img
+                          src="/images/HD-wallpaper-hacker-hack-thumbnail.jpg"
+                          alt=""
+                          class="image-top"
+                      />
+                      <img src="/images/srijan.JPG" alt="" class="profile-image" />
+                      <h1 class="fullname">Srijan Adhikari</h1>
+                      <p class="job">Leader</p>
+                      <button type="button">Explore Me</button>
+                      <ul class="social-icons">
+                          <li>
+                              <a href="https://www.facebook.com/srijan.adk" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://x.com/srijanadk" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://www.linkedin.com/in/srijanadk/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                          </li>
+                      </ul>
+                  </div>
+                 
+
+                    <div class="card">
+                        <img
+                            src="/images/redbg.jpg"
+                            alt=""
+                            class="image-top"
+                        />
+                        <img src="/images/prashun.png" alt="" class="profile-image" />
+                        <h1 class="fullname">Prasun Baral</h1>
+                        <p class="job">Leader</p>
+                        <button type="button">Explore Me</button>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/prashun.baral.9" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/prashun-baral-66aa67249/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="sub-members">
+          <div class="container swiper">
+              <div class="slider-wrapper">
+                  <div class="card-list swiper-wrapper">
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/jeevan.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Jeevan Tamang</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Ananya Dahal.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Ananya Dahal</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/ishwor.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Ishwor Chalise</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/prachi.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Prachi Rajbanshi</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Monika.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Monika Kaphle</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Atul.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Atul Adhikari</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Anjal_Pokharel.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Anjal Pokhrel</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/NABIN.PNG" alt="" class="profile-image" />
+                          <h1 class="fullname">Nabin Pyakurel</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/pujan.JPG" alt="" class="profile-image" />
+                          <h1 class="fullname">Pujan Upadhyay</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Rojan_Shrestha.JPG" alt="" class="profile-image" />
+                          <h1 class="fullname">Rojan Shrestha</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Samir_gurung.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Samir Gurung</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Saurya_Aryal.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Saurya Aryal</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Yuyutsu_Lamsal.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Yuyutsu Lamsal</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/Arpan.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Arpan Pandey</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/aryan.jpg" alt="" class="profile-image" />
+                          <h1 class="fullname">Aryan Neupane</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/suril1.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Suril Pokhrel</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/supreme.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Supreme Maharjan</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                          <img src="images/bluebg.jpg" alt="" class="image-top" />
+                          <img src="images/kripa.png" alt="" class="profile-image" />
+                          <h1 class="fullname">Kripa GC</h1>
+                          <p class="job">Team Member</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide-button swiper-button-prev"></div>
+                  <div class="swiper-slide-button swiper-button-next"></div>
+              </div>
+          </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="founders">
+        <div class="card-row">
+          <div class="card-container">
+              <img src="/images/dipesh-shrestha.jpg" alt="Profile Picture" class="card-photo">
+              <h2 class="card-name">Dipesh Shrestha</h2>
+              <p class="card-title">Founder of Herald DevCorps</p>
+              <div class="card-social">
+                  <i class="fab fa-facebook-f" onclick="https://www.linkedin.com/in/dipeshshrestha1221/"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+          <div class="card-container">
+              <img src="/images/sangay.png" alt="Profile Picture" class="card-photo">
+              <h2 class="card-name">Sangay Lama</h2>
+              <p class="card-title">Mentor of Ethical HCK</p>
+              <div class="card-social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="founders2">
+        <div class="card-row">
+          <div class="card-container">
+              <img src="/images/susan.jpg" alt="Profile Picture" class="card-photo">
+              <h2 class="card-name">Susan Chaudhary</h2>
+              <p class="card-title">Founder of Ethical HCK</p>
+              <div class="card-social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+          <div class="card-container">
+              <img src="/images/saurav1.jpg" alt="Profile Picture" class="card-photo">
+              <h2 class="card-name">Saurav Adhikari</h2>
+              <p class="card-title">Co-Founder of Ethical HCK</p>
+              <div class="card-social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin"></i>
+              </div>
+          </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="last-part">
+        <footer>
+          <div class="footer-container">
+            <div class="footer-section">
+              <h3>Contact Us</h3>
+                        <p>Email: <a href="mailto:contact@ethicalhck.com">contact@ethicalhck.com</a></p>
+                        <p>Phone: <a href="tel:+977 9741722213">9741722213</a></p>
+                        <p>Address: Herald College Kathmandu, Nepal</p>
+            </div>
+            <div class="footer-section">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/groups/ethicalhck" target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://www.instagram.com/devcorps.ethicalhck/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/ethical-hck-community/" target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Ethical HCK Community. All Rights Reserved.<br/> By Atul Adhikari and Ishwor Chalise.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="final.js"></script>
+  </body>
+</html>
