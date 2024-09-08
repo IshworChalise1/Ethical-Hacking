@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -201,7 +202,7 @@ nav {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 5px;
   text-align: center;
   white-space: pre-wrap;
@@ -294,17 +295,17 @@ nav {
   background-color: #1b36267d;
 }
 .card h1 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
   margin: 10px;
 }
 
 .job {
-  font-family: "Monserrat", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 300;
 }
 .about-me {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   width: 90%;
   margin: 15px 0;
@@ -321,7 +322,7 @@ nav {
   border: none;
   outline: none;
   border-radius: 25px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #eeeeee;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
@@ -690,12 +691,12 @@ i#next {
 
 .slider-wrapper .fullname{
 color: aliceblue;
-font-family: "Ubuntu", sans-serif;
+font-family: 'Times New Roman', Times, serif;
 margin-top: 20px;
 }
 .slider-wrapper .job{
   color: aliceblue;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   /* margin-top: -110px;*/
   margin-bottom: 30px; 
   }
