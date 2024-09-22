@@ -738,6 +738,7 @@ margin-top: 20px;
   margin: 20px;
   margin-bottom: 30px;
   margin-top: -250px;
+  border-radius: 200px;
 }
 
 .card-row {
@@ -772,6 +773,7 @@ margin-top: 20px;
   height: 68%;
   object-fit: cover;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 300px;
 }
 
 .card-content {
